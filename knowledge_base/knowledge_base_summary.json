@@ -1,0 +1,73 @@
+{
+  "total_components": 633,
+  "total_files": 12,
+  "format_breakdown": {
+    "new_format": 3,
+    "old_format": 9
+  },
+  "categories": {
+    "Projekt": 36,
+    "Nedriv": 10,
+    "Murer": 140,
+    "Tømrer": 153,
+    "Gulve": 4,
+    "VVS": 47,
+    "Køkken": 15,
+    "EL": 46,
+    "Maler": 17,
+    "Projektledelse, Dokumentation og Administration": 5,
+    "Nedrivning": 41,
+    "Snedker / Glarmester": 4,
+    "Sanitet": 46,
+    "Projekt, Dokumentation og Administration": 10,
+    "Nedrivning og Bortskaffelse": 11,
+    "Snedker": 24,
+    "Snedker/Glarmester": 2,
+    "Gulv": 10,
+    "Nedrivning og bortskaffelse": 1,
+    "Snedker / Køkken": 10,
+    "Glarmester": 1
+  },
+  "trades": {
+    "Bnord": 488,
+    "Kvik": 1,
+    "EL": 32,
+    "VVS": 28,
+    "Maler": 13,
+    "STS": 2,
+    "": 39,
+    "El-Ent.": 1,
+    "MR_Rasmus.": 1,
+    "Ravn": 2,
+    "HC": 3,
+    "Glar": 1,
+    "IKEA": 3,
+    "&Shufl": 3,
+    "Krone": 1,
+    "EL.": 3,
+    "EL-Entpr.": 1,
+    "Nedriv": 1,
+    "Ingholt": 1,
+    "DBS": 1,
+    "W. Away": 1,
+    "Gulv": 3,
+    "Køkken": 4
+  },
+  "cost_ranges": {
+    "min": 575.0,
+    "max": 167825.0,
+    "average": 9972.819047619048,
+    "median": 5180.0,
+    "total": 6282876.0
+  },
+  "labor_stats": {
+    "total_hours": 3646.5,
+    "average_hours": 9.07089552238806,
+    "median_hours": 7.0
+  },
+  "material_stats": {
+    "total_materials": 2724136.0,
+    "average_materials": 5947.89519650655,
+    "median_materials": 1200.0
+  }
+}

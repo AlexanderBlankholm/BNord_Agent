@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "filename": "2025.02.02 Tilbudbadeværelse på 1. sal. Trekronergade 125",
+    "date": "2025-02-02",
+    "project_name": "2025.02.02 Tilbudbadeværelse på 1. sal. Trekronergade 125",
+    "project_info": "Tilbud - Trekroner, Arbejder på 1. sal. ",
+    "total_rows": 70,
+    "total_columns": 15
+  },
+  "components": [
+    {
+      "Opgave": "Affald",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 0.15,
+      "Takst": 825.0,
+      "Materialer": 5.0,
+      "Påslag": 0.15,
+      "row_index": 5
+    },
+    {
+      "Opgave": "Slutrengøring",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 4.0,
+      "Takst": 575.0,
+      "Materialer": 4.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 6
+    },
+    {
+      "Opgave": "Afdækning af trappe med Tectura  tæppe",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 0.15,
+      "Takst": 585.0,
+      "Materialer": 3.0,
+      "Unnamed: 3": "Bnord",
+      "Påslag": 0.15,
+      "row_index": 7
+    },
+    {
+      "Opgave": "Det forudsættes at håndværkere kan benytte toilettet i stueetagen",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "row_index": 8
+    },
+    {
+      "Opgave": "Indkøb og opsætning af 2 plane hvide døre, inkl, indfatninger",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Materialer": 13000.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 14
+    },
+    {
+      "Opgave": "Opbygning af gulv med svalehaleplader",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 8.0,
+      "Takst": 585.0,
+      "Materialer": 8.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 15
+    },
+    {
+      "Opgave": "Opbygning af cisternekasse og niche til opbecaring",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 5.0,
+      "Takst": 800.0,
+      "Materialer": 5.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 16
+    },
+    {
+      "Opgave": "Hultagning til skakt",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 1.0,
+      "Takst": 585.0,
+      "Materialer": 1.0,
+      "Unnamed: 3": "Bnord",
+      "Påslag": 1.0,
+      "row_index": 17
+    },
+    {
+      "Opgave": "2 stk vinger i gips inkl. 1 shampoohylde",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 8.0,
+      "Takst": 600.0,
+      "Materialer": 8.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 18
+    },
+    {
+      "Opgave": "Gulvmand",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Salgspris": 69100.625,
+      "Tilbud": 69100.625,
+      "Timer": 0.95,
+      "Materialer": 72737.5,
+      "Påslag": 0.95,
+      "row_index": 22
+    },
+    {
+      "Opgave": "Rep af gulv ca. 1 m2, efterskruning og spartling",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 0.15,
+      "Materialer": 13500.0,
+      "Påslag": 0.15,
+      "row_index": 23
+    },
+    {
+      "Opgave": "Indkøb og montering af gulv på 1. sal",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 0.15,
+      "Materialer": 47250.0,
+      "Påslag": 0.15,
+      "row_index": 24
+    },
+    {
+      "Opgave": "Tillæg for 2 etaper",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Materialer": 3738.0,
+      "row_index": 26
+    },
+    {
+      "Opgave": "Opretning af vægge",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 7.0,
+      "Takst": 700.0,
+      "Materialer": 7.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 28
+    },
+    {
+      "Opgave": "Tilstøbning af skakt hul",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 2.0,
+      "Takst": 300.0,
+      "Materialer": 2.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 29
+    },
+    {
+      "Opgave": "Støbning af gulv",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 12.0,
+      "Takst": 585.0,
+      "Materialer": 12.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 30
+    },
+    {
+      "Opgave": "Opsætning af fliser på væg ca.  4,5 m2",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 13.0,
+      "Takst": 600.0,
+      "Materialer": 13.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 32
+    },
+    {
+      "Opgave": "Opsætning af klinker på gulv  ca. 5 m2",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 8.0,
+      "Takst": 600.0,
+      "Materialer": 8.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 33
+    },
+    {
+      "Opgave": "Shampoohylde",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 4.0,
+      "Takst": 300.0,
+      "Materialer": 4.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 35
+    },
+    {
+      "Opgave": "Fugning med hård og blød fuge",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 6.0,
+      "Takst": 800.0,
+      "Materialer": 6.0,
+      "Unnamed: 3": "Bnord",
+      "row_index": 37
+    },
+    {
+      "Opgave": "Der laves lampeudtag og ikke spots",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "row_index": 44
+    },
+    {
+      "Opgave": "Maling af y-væg",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Timer": 0.15,
+      "Materialer": 6500.0,
+      "Påslag": 0.15,
+      "row_index": 48
+    },
+    {
+      "Opgave": "Tillæg hvis entreprisen udføres i 2 etaper",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Takst": 1000.0,
+      "Timer": 0.15,
+      "Materialer": 1000.0,
+      "Påslag": 0.15,
+      "row_index": 49
+    },
+    {
+      "Opgave": "Sanitet:",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Salgspris": 9775.0,
+      "Materialer": 9775.0,
+      "row_index": 56
+    },
+    {
+      "Opgave": "Kroge, wc rulle holder og diverse (afsat 800 kr)",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Takst": 920.0,
+      "Timer": 0.15,
+      "Materialer": 800.0,
+      "Unnamed: 3": "Bnord",
+      "Påslag": 0.15,
+      "row_index": 61
+    },
+    {
+      "Opgave": "Aconto 1 =",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Tilbud": 166155.15625,
+      "Materialer": 166155.15625,
+      "row_index": 66
+    },
+    {
+      "Opgave": "Rest:",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Tilbud": 54840.20000000001,
+      "Materialer": 54840.20000000001,
+      "row_index": 67
+    },
+    {
+      "Opgave": "45457.5",
+      "kategori": "02.02.2025 Byggeselskabet Nord ApS.",
+      "kategori_total": 0.0,
+      "Salgspris": 45457.5,
+      "Materialer": 200908.0,
+      "row_index": 69
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "filename": "2024.03.12 Tilbud Olesvej 6 _ Virum",
+    "date": "2024-03-12",
+    "project_name": "2024.03.12 Tilbud Olesvej 6   Virum",
+    "project_info": "Tilbud",
+    "total_rows": 98,
+    "total_columns": 11
+  },
+  "components": [
+    {
+  "Opgave": "Projektledelse",
+  "kategori": "Projekt",
+  "Timer": 0,
+  "Takst": 0,
+  "Materialer": 5000,
+  "kostpris": 5000,
+  "Fag": "Bnord",
+  "Tilbud": 5000,
+  "Påslag": 0
+},
+{
+  "Opgave": "Affald, 4 big bag",
+  "kategori": "Projekt",
+  "Timer": 0,
+  "Takst": 0,
+  "Materialer": 4000,
+  "kostpris": 4000,
+  "Fag": "Bnord",
+  "Tilbud": 4600,
+  "Påslag": 15
+},
+{
+  "Opgave": "Rengøring og afdækning",
+  "kategori": "Projekt",
+  "Timer": 0,
+  "Takst": 0,
+  "Materialer": 4500,
+  "kostpris": 4500,
+  "Fag": "Bnord",
+  "Tilbud": 4500,
+  "Påslag": 0
+},
+{
+  "Opgave": "Opbankning af gammelt gulv i badeværelse og brusezonen",
+  "kategori": "Nedrivning",
+  "Timer": 15,
+  "Takst": 550,
+  "Materialer": 0,
+  "kostpris": 8250,
+  "Fag": "Bnord",
+  "Tilbud": 8250,
+  "Påslag": 0
+},
+{
+  "Opgave": "Nedtagning af fliser på vægge",
+  "kategori": "Nedrivning",
+  "Timer": 12,
+  "Takst": 550,
+  "Materialer": 0,
+  "kostpris": 6600,
+  "Fag": "Bnord",
+  "Tilbud": 6600,
+  "Påslag": 0
+},
+{
+  "Opgave": "Nedtagning af bademøbel og diverse inventar",
+  "kategori": "Nedrivning",
+  "Timer": 4,
+  "Takst": 550,
+  "Materialer": 0,
+  "kostpris": 2200,
+  "Fag": "Bnord",
+  "Tilbud": 2200,
+  "Påslag": 0
+},
+{
+  "Opgave": "Nedrivning af gammel rørkasse",
+  "kategori": "Nedrivning",
+  "Timer": 2,
+  "Takst": 550,
+  "Materialer": 0,
+  "kostpris": 1100,
+  "Fag": "Bnord",
+  "Tilbud": 1100,
+  "Påslag": 0
+},
+{
+  "Opgave": "Blænding af dørhul mod gang",
+  "kategori": "Tømrer",
+  "Timer": 6,
+  "Takst": 550,
+  "Materialer": 900,
+  "kostpris": 4200,
+  "Fag": "Bnord",
+  "Tilbud": 4200,
+  "Påslag": 0
+},
+{
+  "Opgave": "Opsætning af forsatsvæg ved toilet og vask",
+  "kategori": "Tømrer",
+  "Timer": 15,
+  "Takst": 550,
+  "Materialer": 1600,
+  "kostpris": 9850,
+  "Fag": "Bnord",
+  "Tilbud": 9850,
+  "Påslag": 0
+},
+{
+  "Opgave": "Opsætning af forsatsvæg ved badekar / Placering af Orbital",
+  "kategori": "Tømrer",
+  "Timer": 6,
+  "Takst": 550,
+  "Materialer": 600,
+  "kostpris": 3900,
+  "Fag": "Bnord",
+  "Tilbud": 3900,
+  "Påslag": 0
+},
+{
+  "Opgave": "Genopsætning af dør i nyt dørhul og indfatninger på en side",
+  "kategori": "Tømrer",
+  "Timer": 6,
+  "Takst": 550,
+  "Materialer": 600,
+  "kostpris": 3900,
+  "Fag": "Bnord",
+  "Tilbud": 3900,
+  "Påslag": 0
+},
+{
+  "Opgave": "Vinduesplade ved vindue i toiletzonen",
+  "kategori": "Tømrer",
+  "Timer": 4,
+  "Takst": 550,
+  "Materialer": 300,
+  "kostpris": 2500,
+  "Fag": "Bnord",
+  "Tilbud": 2500,
+  "Påslag": 0
+},
+{
+  "Opgave": "Forsatsvæg i toilet i kælder",
+  "kategori": "Tømrer",
+  "Timer": 8,
+  "Takst": 550,
+  "Materialer": 800,
+  "kostpris": 5200,
+  "Fag": "Bnord",
+  "Tilbud": 5200,
+  "Påslag": 0
+},
+{
+  "Opgave": "Udskiftning af vinduer, s stk. (bygherre har indkøbt vinduerne)",
+  "kategori": "Tømrer",
+  "Timer": 15,
+  "Takst": 550,
+  "Materialer": 0,
+  "kostpris": 8250,
+  "Fag": "Bnord",
+  "Tilbud": 8250,
+  "Påslag": 0
+},
+{
+  "Opgave": "Mørtelfuge",
+  "kategori": "Tømrer",
+  "Timer": 4,
+  "Takst": 550,
+  "Materialer": 200,
+  "kostpris": 2400,
+  "Fag": "Bnord",
+  "Tilbud": 2400,
+  "Påslag": 0
+},
+{
+  "Opgave": "Transport og leje af rulle stillads",
+  "kategori": "Tømrer",
+  "Timer": 0,
+  "Takst": 0,
+  "Materialer": 4500,
+  "kostpris": 4500,
+  "Fag": "",
+  "Tilbud": 4500,
+  "Påslag": 0
+},
+{
+  "Opgave": "Diverse reparation i køkken, loft og rørkasse",
+  "kategori": "Tømrer",
+  "Timer": 6,
+  "Takst": 550,
+  "Materialer": 800,
+  "kostpris": 4100,
+  "Fag": "Bnord",
+  "Tilbud": 4100,
+  "Påslag": 0
+},
+{
+  "Opgave": "Gasbeton opbygning ved badekar",
+  "kategori": "Murer",
+  "Timer": 8,
+  "Takst": 550,
+  "Materialer": 700,
+  "kostpris": 5100,
+  "Fag": "Bnord",
+  "Tilbud": 5100,
+  "Påslag": 0
+},
+{
+  "Opgave": "Reparation af vægge efter nedtagning af fliser i toilet område",
+  "kategori": "Murer",
+  "Timer": 7,
+  "Takst": 550,
+  "Materialer": 600,
+  "kostpris": 4450,
+  "Fag": "Bnord",
+  "Tilbud": 4450,
+  "Påslag": 0
+},
+{
+  "Opgave": "Opretning af vægge hvor der skal være fliser (I badezonen)",
+  "kategori": "Murer",
+  "Timer": 14,
+  "Takst": 550,
+  "Materialer": 800,
+  "kostpris": 8500,
+  "Fag": "Bnord",
+  "Tilbud": 8500,
+  "Påslag": 0
+},
+{
+  "Opgave": "Udlægning af rionet",
+  "kategori": "Murer",
+  "Timer": 2,
+  "Takst": 550,
+  "Materialer": 300,
+  "kostpris": 1400,
+  "Fag": "Bnord",
+  "Tilbud": 1400,
+  "Påslag": 0
+},
+{
+  "Opgave": "Støbning af gulv",
+  "kategori": "Murer",
+  "Timer": 10,
+  "Takst": 550,
+  "Materialer": 2500,
+  "kostpris": 8000,
+  "Fag": "Bnord",
+  "Tilbud": 8000,
+  "Påslag": 0
+},
+{
+  "Opgave": "Vådrum",
+  "kategori": "Murer",
+  "Timer": 10,
+  "Takst": 550,
+  "Materialer": 2400,
+  "kostpris": 7900,
+  "Fag": "Bnord",
+  "Tilbud": 7900,
+  "Påslag": 0
+},
+{
+  "Opgave": "Flisearbejde gulv og vægge",
+  "kategori": "Murer",
+  "Timer": 55,
+  "Takst": 550,
+  "Materialer": 1800,
+  "kostpris": 32050,
+  "Fag": "Bnord",
+  "Tilbud": 32050,
+  "Påslag": 0
+},
+{
+  "Opgave": "Indkøb af fliser til vægge (19 m2 inkl. spild) Afsat 8.000 kr.",
+  "kategori": "Murer",
+  "Timer": 0,
+  "Takst": 0,
+  "Materialer": 8000,
+  "kostpris": 8000,
+  "Fag": "",
+  "Tilbud": 9200,
+  "Påslag": 15
+},
+{
+  "Opgave": "Indkøb af fliser til gulve og sokler (5,5 m2), (Sokkel 8 lbm) Afsat 10.000 kr.",
+  "kategori": "Murer",
+  "Timer": 0,
+  "Takst": 0,
+  "Materialer": 10000,
+  "kostpris": 10000,
+  "Fag": "",
+  "Tilbud": 11500,
+  "Påslag": 15
+},
+{
+  "Opgave": "Specialbygget brusevæg i matteret glas",
+  "kategori": "Snedker/Glarmester",
+  "Timer": 0,
+  "Takst": 0,
+  "Materialer": 17464,
+  "kostpris": 17464,
+  "Fag": "Glar",
+  "Tilbud": 20084,
+  "Påslag": 15
+},
+{
+  "Opgave": "De- og genmontering af underskabs moduler i køkken",
+  "kategori": "Snedker/Glarmester",
+  "Timer": 4,
+  "Takst": 550,
+  "Materialer": 500,
+  "kostpris": 2700,
+  "Fag": "Bnord",
+  "Tilbud": 2700,
+  "Påslag": 0
+},
+{
+  "Opgave": "EL installationer inkl. demontering, montering af lampeudtag, afbrydere, stikkontakter, gulvvarme, strøm til Orbital brusesystem og stikkontakt i lille toilet",
+  "kategori": "EL",
+  "Timer": 0,
+  "Takst": 0,
+  "Materialer": 22500,
+  "kostpris": 22500,
+  "Fag": "",
+  "Tilbud": 25875,
+  "Påslag": 15
+},
+{
+  "Opgave": "Malerarbejde inkl. spartling, filtning og maling af lofter og vægge (ikke i toilet i kælderen eller vinduer)",
+  "kategori": "Maler",
+  "Timer": 0,
+  "Takst": 0,
+  "Materialer": 19000,
+  "kostpris": 19000,
+  "Fag": "",
+  "Tilbud": 21850,
+  "Påslag": 15
+}
+  ]
+}

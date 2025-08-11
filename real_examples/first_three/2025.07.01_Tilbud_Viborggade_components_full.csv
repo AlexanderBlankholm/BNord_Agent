@@ -1,0 +1,61 @@
+Fag,Egen produktion | Timer,Unnamed: 15,Unnamed: 18,UE salgspris,kategori_total,Admin,Kostpris,Tilbud_2,Unnamed: 0,Opgave,Takst,Unnamed: 2,UE påslag,Salgspris,Tilbud,Materialer | Materialer,Påslag,Underentreprenør | UE,kategori,Unnamed: 17
+Bnord,nan,nan,nan,nan,15910,7000,nan,nan,nan,"Projektledelse, Administration og Parkering",nan,nan,nan,nan,7000.0,nan,nan,nan,Projekt,nan
+Bnord,nan,nan,nan,7020,15910,nan,nan,nan,nan,"Affald, Big bag afhentning",nan,nan,0.17,nan,7020.0,nan,nan,6000.0,Projekt,nan
+Bnord,2,nan,nan,nan,15910,nan,1170,nan,nan,Rengøring og afdækning gang og repose i byggeperioden,585,nan,nan,720,1890.0,600,0.2,nan,Projekt,nan
+Bygherre,nan,nan,nan,nan,15910,nan,nan,nan,nan,Bygherre varsler beboere i ejendommen ved luk af vand mv.,nan,nan,nan,nan,nan,nan,nan,nan,Projekt,nan
+Bnord,2,nan,nan,nan,7000,nan,1000,nan,nan,Nedrivning af dørkarm,500,nan,nan,nan,1000.0,nan,nan,nan,Nedrivning og bortskaffelse,nan
+Bnord,4,nan,nan,nan,7000,nan,2000,nan,nan,Nedrivning af væg og dør til toilet,500,nan,nan,nan,2000.0,nan,nan,nan,Nedrivning og bortskaffelse,nan
+Bnord,6,nan,nan,nan,7000,nan,3000,nan,nan,Nedrivning af gulvbrædder i værelse (Badeværelses udviddelsen),500,nan,nan,nan,3000.0,nan,nan,nan,Nedrivning og bortskaffelse,nan
+Bnord,2,nan,nan,nan,7000,nan,1000,nan,nan,Optagning af gulv i toilet,500,nan,nan,nan,1000.0,nan,nan,nan,Nedrivning og bortskaffelse,nan
+Bnord,15,nan,nan,nan,52665,nan,8775,nan,nan,Etablering af væg mellem nyt bad og værelse,585,nan,nan,2160,10935.0,1800,0.2,nan,Tømrer,nan
+Bnord,3,nan,nan,nan,52665,nan,1755,nan,nan,Etablering af bænk i bruseniche,585,nan,nan,360,2115.0,300,0.2,nan,Tømrer,nan
+Bnord,7,nan,nan,nan,52665,nan,4095,nan,nan,Ny væg mellem gang og nyt badeværelse,585,nan,nan,720,4815.0,600,0.2,nan,Tømrer,nan
+Bnord,4,nan,nan,nan,52665,nan,2340,nan,nan,Cisterne kasse til hængetoilet,585,nan,nan,480,2820.0,400,0.2,nan,Tømrer,nan
+Bnord,6,nan,nan,nan,52665,nan,3510,nan,nan,2 stk. nye rørkasser til toilet,585,nan,nan,960,4470.0,800,0.2,nan,Tømrer,nan
+Bnord,12,nan,nan,nan,52665,nan,7020,nan,nan,Nyt nedhængt loft i badeværelse med teknik lem,585,nan,nan,1920,8940.0,1600,0.2,nan,Tømrer,nan
+Bnord,5,nan,nan,nan,52665,nan,2925,nan,nan,Genbrug af dør til toilet. Dør skal tilpasses. Nye indfatninger på dør,585,nan,nan,480,3405.0,400,0.2,nan,Tømrer,nan
+Bnord,2,nan,nan,nan,52665,nan,1170,nan,nan,Optrin til toilet,585,nan,nan,240,1410.0,200,0.2,nan,Tømrer,nan
+Bnord,4,nan,nan,nan,52665,nan,2340,nan,nan,Brand og lydisolering i etagedæk,585,nan,nan,1440,3780.0,1200,0.2,nan,Tømrer,nan
+Bnord,15,nan,nan,nan,52665,nan,8775,nan,nan,Ny let gulvkonstruktion på badeværelsesgulv,585,nan,nan,1200,9975.0,1000,0.2,nan,Tømrer,nan
+Bnord,nan,nan,nan,9294.48,26610.12,nan,nan,nan,nan,Indkøb af vaske/tørremaskine (Siemens WK14D322DN iQ300),nan,nan,0.17,nan,9294.48,nan,nan,7944.0,Snedker / Køkken,nan
+Bnord,2,nan,nan,nan,26610.12,nan,1170,nan,nan,Fragt og opbæring af vaskemaskine og & møbel,585,nan,nan,nan,1170.0,nan,nan,nan,Snedker / Køkken,nan
+Bnord,nan,nan,nan,1755,26610.12,nan,nan,nan,nan,Kabinet til vaskemøbel,nan,nan,0.17,nan,1755.0,nan,nan,1500.0,Snedker / Køkken,nan
+Bnord,nan,nan,Pris &Shufl,5255.64,26610.12,nan,nan,nan,nan,"Fronter, tilsætninger og sokkel fra &Shufl (Afsat beløb 4.000 Kr.)",nan,nan,0.17,nan,5255.64,nan,nan,4492.0,Snedker / Køkken,nan
+Bnord,nan,nan,Krone pris 4.500 Kr. vi måler og afhenter selv,6435,26610.12,nan,nan,nan,nan,"Bordplade med vask (Mat hvid som Corian), (Afsat beløb 5.500 Kr.)",nan,nan,0.17,nan,6435.0,nan,nan,5500.0,Snedker / Køkken,nan
+Bnord,4,nan,nan,nan,26610.12,nan,2340,nan,nan,Montage af badeværelsesmøbel,585,nan,nan,360,2700.0,300,0.2,nan,Snedker / Køkken,nan
+Bnord,7,nan,nan,nan,53775,nan,4095,nan,nan,Opretning af vægge i toilet,585,nan,nan,480,4575.0,400,0.2,nan,Murer,nan
+Bnord,5,nan,nan,nan,53775,nan,2925,nan,nan,Opretning af muret fald i gammel døråbning,585,nan,nan,480,3405.0,400,0.2,nan,Murer,nan
+Bnord,4,nan,nan,nan,53775,nan,2340,nan,nan,Udlægning af Wediplader på gulv,585,nan,nan,1200,3540.0,1000,0.2,nan,Murer,nan
+Bnord,2,nan,nan,nan,53775,nan,1170,nan,nan,Etablering af fald på gulv i bruseniche,585,nan,nan,360,1530.0,300,0.2,nan,Murer,nan
+Bnord,2,nan,nan,nan,53775,nan,1170,nan,nan,Spartling af gulvvarme,585,nan,nan,720,1890.0,600,0.2,nan,Murer,nan
+Bnord,4,nan,nan,nan,53775,nan,2340,nan,nan,Opsætning af fliser på bænk,585,nan,nan,360,2700.0,300,0.2,nan,Murer,nan
+Bnord,15,nan,nan,nan,53775,nan,8775,nan,nan,Opsætning af fliser i bruseniche,585,nan,nan,720,9495.0,600,0.2,nan,Murer,nan
+Bnord,6,nan,nan,nan,53775,nan,3510,nan,nan,Etablering af vådrum,585,nan,nan,1560,5070.0,1300,0.2,nan,Murer,nan
+Bnord,12,nan,nan,nan,53775,nan,7020,nan,nan,Opsætning af gulvklinker og sokkelklinker,585,nan,nan,720,7740.0,600,0.2,nan,Murer,nan
+Bnord,nan,nan,nan,7605,53775,nan,nan,nan,nan,"Indkøb af Fliser, Gulvklinker og Sokkelklinker (Afsat beløb 6.500 Kr.) ",nan,nan,0.17,nan,7605.0,nan,nan,6500.0,Murer,nan
+Bnord,6,nan,nan,nan,53775,nan,3510,nan,nan,Fugning af fliser med hård og blød fuge,585,nan,nan,720,4230.0,600,0.2,nan,Murer,nan
+Bnord,3,nan,nan,nan,53775,nan,1755,nan,nan,Reparation af underboens loft efter gennemføringer,585,nan,nan,240,1995.0,200,0.2,nan,Murer,nan
+VVS,nan,nan,nan,50895,50895,nan,nan,nan,nan,Demontering af gamle installationer og brusekabine,nan,nan,0.17,nan,50895.0,nan,nan,43500.0,VVS,nan
+VVS,nan,nan,nan,nan,50895,nan,nan,nan,nan,Levering og manteing af skjulte installationer,nan,nan,nan,nan,nan,nan,nan,nan,VVS,nan
+VVS,nan,nan,nan,nan,50895,nan,nan,nan,nan,Udførsel af vand- og afløbsinstallationer,nan,nan,nan,nan,nan,nan,nan,nan,VVS,nan
+VVS,nan,nan,nan,nan,50895,nan,nan,nan,nan,Ny cisterne til hænge toilet,nan,nan,nan,nan,nan,nan,nan,nan,VVS,nan
+VVS,nan,nan,nan,nan,50895,nan,nan,nan,nan,Unidrain custon (Til fliser),nan,nan,nan,nan,nan,nan,nan,nan,VVS,nan
+VVS,nan,nan,nan,nan,50895,nan,nan,nan,nan,Montering af sanitet og vaske/tørremaskine,nan,nan,nan,nan,nan,nan,nan,nan,VVS,nan
+VVS,nan,nan,nan,1404,13045.5,nan,nan,nan,nan,Håndvask armatur (Afsat beløb 1.200 eks moms) ,nan,nan,0.17,nan,1404.0,nan,nan,1200.0,Sanitet,nan
+VVS,nan,nan,nan,5265,13045.5,nan,nan,nan,nan,Brusearmatur/rainshower (Afsat beløb 4.500 eks moms),nan,nan,0.17,nan,5265.0,nan,nan,4500.0,Sanitet,nan
+VVS,nan,nan,nan,1111.5,13045.5,nan,nan,nan,nan,Trykknap (Afsat beløb 950 eks moms) ,nan,nan,0.17,nan,1111.5,nan,nan,950.0,Sanitet,nan
+VVS,nan,nan,nan,2925,13045.5,nan,nan,nan,nan,WC/hænge toilet (Afsat beløb 2.500 eks moms),nan,nan,0.17,nan,2925.0,nan,nan,2500.0,Sanitet,nan
+VVS,nan,nan,nan,1755,13045.5,nan,nan,nan,nan,Spejl med lys (Afsat beløb 1.500 eks moms),nan,nan,0.17,nan,1755.0,nan,nan,1500.0,Sanitet,nan
+VVS,nan,nan,nan,585,13045.5,nan,nan,nan,nan,Kroge og toiletrulle holder (Afsat beløb 500 eks moms),nan,nan,0.17,nan,585.0,nan,nan,500.0,Sanitet,nan
+EL,nan,nan,nan,26325,26325,nan,nan,nan,nan,Demontering af gamle installationer,nan,nan,0.17,nan,26325.0,nan,nan,22500.0,EL,nan
+EL,nan,nan,nan,nan,26325,nan,nan,nan,nan,El til vasketørre maskine,nan,nan,nan,nan,nan,nan,nan,nan,EL,nan
+EL,nan,nan,nan,nan,26325,nan,nan,nan,nan,El til lys bag spejl,nan,nan,nan,nan,nan,nan,nan,nan,EL,nan
+EL,nan,nan,nan,nan,26325,nan,nan,nan,nan,2 stk. el-udtag ved badeværelsesmøbel,nan,nan,nan,nan,nan,nan,nan,nan,EL,nan
+EL,nan,nan,nan,nan,26325,nan,nan,nan,nan,1 stk. el-udtag ved hylde på cisternekasse,nan,nan,nan,nan,nan,nan,nan,nan,EL,nan
+EL,nan,nan,nan,nan,26325,nan,nan,nan,nan,5 stk spots i loft,nan,nan,nan,nan,nan,nan,nan,nan,EL,nan
+EL,nan,nan,nan,nan,26325,nan,nan,nan,nan,Afbryder til lys og lys i spejl,nan,nan,nan,nan,nan,nan,nan,nan,EL,nan
+EL,nan,nan,nan,nan,26325,nan,nan,nan,nan,Afbryder til mekanisk ventilation ,nan,nan,nan,nan,nan,nan,nan,nan,EL,nan
+EL,nan,nan,nan,nan,26325,nan,nan,nan,nan,Gulvvarme som net med thermostat,nan,nan,nan,nan,nan,nan,nan,nan,EL,nan
+Maler,nan,nan,nan,14040,22230,nan,nan,nan,nan,Maling af vægge og lofter i badeværelse,nan,nan,0.17,nan,14040.0,nan,nan,12000.0,Maler,nan
+Maler,nan,nan,nan,4680,22230,nan,nan,nan,nan,Maling af dør og indfatninger,nan,nan,0.17,nan,4680.0,nan,nan,4000.0,Maler,nan
+Maler,nan,nan,nan,3510,22230,nan,nan,nan,nan,Maling af underboens loft,nan,nan,0.17,nan,3510.0,nan,nan,3000.0,Maler,nan

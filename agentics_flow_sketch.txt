@@ -1,0 +1,18 @@
+So, now I have completed my knowledge base and I am ready to implement the agent. Help me with this by writing a basic skeleton I can expand on. I want to code the following flow:
+
+
+1) The user inputs a text describing the project in danish - for example: "Total renovation af badeværelse"
+
+2) The agent asks a few follow-up questions in danish like for example "how many square meters is the bathroom?"
+
+3) The user answers these questions
+
+4) The agent presents the user with a list of categories (as defined by a file with typical categories) and asks the user to select which ones are relevant for the project
+
+5) For each relevant category selected by the user, the agent asks in danish "What sub-tasks are required in this category?"
+
+6) The user species one relevant sub-task at a time - like for example "nedrivning af fliser på vægge" if the current category is "nedrivning"
+
+7) The agent asks in danish "is there anything else you would like to add to this category?". If the answer is "no" the agent moves on to the next category deemed relevant for the project and repeats the selection of relevant sub-tasks. This is done untill all categories have been filled out
+
+8) The agent outputs everything to an excel file.

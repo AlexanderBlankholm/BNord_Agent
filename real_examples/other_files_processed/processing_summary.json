@@ -1,0 +1,67 @@
+{
+  "total_files": 10,
+  "processed_files": [
+    {
+      "input_file": "2023.04.19 Brannersvej 5 _ Kalkulation.xlsx",
+      "output_file": "2023.04.19 Brannersvej 5 _ Kalkulation_components_full.json",
+      "components_count": 5,
+      "status": "success"
+    },
+    {
+      "input_file": "2023.06.10 H.P. Ørums Gade 27 CB.xlsx",
+      "output_file": "2023.06.10 H.P. Ørums Gade 27 CB_components_full.json",
+      "components_count": 23,
+      "status": "success"
+    },
+    {
+      "input_file": "2023.10.21 Peter bangsvej 67 st th.xlsx",
+      "output_file": "2023.10.21 Peter bangsvej 67 st th_components_full.json",
+      "components_count": 25,
+      "status": "success"
+    },
+    {
+      "input_file": "2024.03.12 Tilbud Olesvej 6 _ Virum.xlsx",
+      "output_file": "2024.03.12 Tilbud Olesvej 6 _ Virum_components_full.json",
+      "components_count": 60,
+      "status": "success"
+    },
+    {
+      "input_file": "2024.05.01 Frederiksstadsgade 1. 4 th..xlsx",
+      "output_file": "2024.05.01 Frederiksstadsgade 1. 4 th._components_full.json",
+      "components_count": 43,
+      "status": "success"
+    },
+    {
+      "input_file": "2024.08.29 Tilbud Kochsvej 6. 2. sal. th..xlsx",
+      "output_file": "2024.08.29 Tilbud Kochsvej 6. 2. sal. th._components_full.json",
+      "components_count": 80,
+      "status": "success"
+    },
+    {
+      "input_file": "2024.29.10 - Ægirsgade 51 3.tv.xlsx",
+      "output_file": "2024.29.10 - Ægirsgade 51 3.tv_components_full.json",
+      "components_count": 30,
+      "status": "success"
+    },
+    {
+      "input_file": "2025.01.10 Pilehøjvej 53A. 2750 Ballerup.xlsx",
+      "output_file": "2025.01.10 Pilehøjvej 53A. 2750 Ballerup_components_full.json",
+      "components_count": 26,
+      "status": "success"
+    },
+    {
+      "input_file": "2025.02.02 Tilbudbadeværelse på 1. sal. Trekronergade 125.xlsx",
+      "output_file": "2025.02.02 Tilbudbadeværelse på 1. sal. Trekronergade 125_components_full.json",
+      "components_count": 28,
+      "status": "success"
+    },
+    {
+      "input_file": "2025.03.25 - Grækenlandsvej 88 St. tv..xlsx",
+      "output_file": "2025.03.25 - Grækenlandsvej 88 St. tv._components_full.json",
+      "components_count": 11,
+      "status": "success"
+    }
+  ],
+  "errors": [],
+  "output_directory": "real_examples/other_files_processed"
+}
