@@ -1,229 +1,273 @@
-# Construction Project Agent
+# 🏗️ Construction Project Agent
 
-Two versions of a construction project planning agent - a simple Python version and an AI-powered LangChain version, now with a **Streamlit web interface**!
+A sophisticated AI-powered agent for construction project planning and budgeting, built with LangChain and OpenAI.
 
-## 🚀 Quick Start
+## 🚀 **NEW: Enhanced AI Agent with Knowledge Base Integration**
 
-### **⚠️ IMPORTANT: Package Conflict Resolution**
+The **Enhanced AI Agent** now integrates with your existing knowledge base search system, providing:
 
-If you get `ModuleNotFoundError: No module named 'langchain'`, use the **virtual environment**:
+- **🔍 Semantic Search**: Search through 633 construction components using natural language
+- **💰 Cost Structure Preservation**: Full cost breakdowns matching your knowledge base format
+- **🤖 AI-Driven Component Selection**: Intelligent suggestions based on user descriptions
+- **📊 Professional Excel Output**: Detailed cost analysis with all fields preserved
 
+## 📁 **Agent Versions**
+
+### 1. **Enhanced AI Agent** (Recommended) 🆕
+- **File**: `enhanced_ai_agent.py`
+- **Features**: Full knowledge base integration, semantic search, cost structure preservation
+- **UI**: `enhanced_streamlit_app.py`
+
+### 2. **AI Agent** (Basic)
+- **File**: `ai_agent.py`
+- **Features**: LangChain + OpenAI integration, basic conversation flow
+- **UI**: `streamlit_app.py`
+
+### 3. **Simple Agent**
+- **File**: `simple_agent.py`
+- **Features**: Basic Python implementation without AI
+- **UI**: Basic Streamlit interface
+
+## 🎯 **Enhanced Agent Features**
+
+### **Knowledge Base Integration**
+- **633 Components**: Access to your complete validated component database
+- **Semantic Search**: Find components using natural language descriptions
+- **Cost Breakdowns**: Preserve all cost fields (Kostpris_EP, Materialer, Timer, Takst, Påslag, Salgspris)
+- **Category Filtering**: Search within specific construction categories
+
+### **AI-Powered Workflow**
+1. **Project Description**: User describes their construction project
+2. **Category Selection**: Choose relevant construction categories
+3. **Task Definition**: Describe specific tasks for each category
+4. **Component Search**: AI searches knowledge base for matching components
+5. **Cost Analysis**: View detailed cost breakdowns for each component
+6. **Excel Export**: Generate professional budget with full cost structure
+
+### **Cost Structure Preservation**
+The enhanced agent maintains the exact cost structure from your knowledge base:
+
+| Field | Description | Example |
+|-------|-------------|---------|
+| `Kostpris_EP` | Cost price (Timer × Takst) | 2,040 DKK |
+| `Materialer` | Material costs | 500 DKK |
+| `Timer` | Labor hours | 4.0 |
+| `Takst` | Hourly rate | 510 DKK |
+| `Påslag_MAT` | Material markup | 100 DKK |
+| `Salgspris_MAT` | Material sales price | 600 DKK |
+| `Påslag_UE` | Subcontractor markup | 0 DKK |
+| `Salgspris_UE` | Subcontractor sales price | 2,040 DKK |
+| `Tilbud` | Total bid price | 2,640 DKK |
+
+## 🛠️ **Setup & Installation**
+
+### **1. Virtual Environment Setup**
 ```bash
+# Navigate to agent directory
 cd agent
-.\venv\Scripts\Activate.ps1  # Activate virtual environment
-streamlit run streamlit_app.py
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
-**See `STREAMLIT_SETUP.md` for detailed setup instructions.**
-
-### Option 1: Simple Agent (No AI, Works Offline)
+### **2. OpenAI API Key**
 ```bash
-cd agent
-.\venv\Scripts\Activate.ps1  # Activate virtual environment first
-python simple_agent.py
+# Set your OpenAI API key
+$env:OPENAI_API_KEY="your_api_key_here"
 ```
 
-### Option 2: AI-Powered Agent (LangChain + OpenAI)
+### **3. Knowledge Base Access**
+Ensure the knowledge base folder structure exists:
+```
+BNord_Agent/
+├── agent/
+│   ├── enhanced_ai_agent.py
+│   └── enhanced_streamlit_app.py
+└── knowledge_base/
+    ├── unified_knowledge_base.json
+    └── embeddings_and_search/
+        ├── component_embeddings.pkl
+        ├── semantic_search.py
+        └── component_embeddings.py
+```
+
+## 🚀 **Running the Enhanced Agent**
+
+### **Command Line Interface**
 ```bash
-cd agent
-.\venv\Scripts\Activate.ps1  # Activate virtual environment first
-python ai_agent.py
+# Activate virtual environment first
+venv\Scripts\activate
+
+# Run enhanced agent
+python enhanced_ai_agent.py
 ```
 
-### 🆕 Option 3: Streamlit Web Interface (Recommended!)
+### **Streamlit Web Interface** (Recommended)
 ```bash
-cd agent
-.\venv\Scripts\Activate.ps1  # Activate virtual environment first
-streamlit run streamlit_app.py
+# Activate virtual environment first
+venv\Scripts\activate
+
+# Run enhanced Streamlit app
+python run_enhanced_streamlit.py
+# OR
+streamlit run enhanced_streamlit_app.py
 ```
 
-**Or use the launcher scripts:**
-- **Windows:** Double-click `run_streamlit.bat`
-- **PowerShell:** Right-click `run_streamlit.ps1` → "Run with PowerShell"
+### **Alternative Launchers**
+- **Windows**: `run_enhanced_streamlit.bat` (double-click)
+- **PowerShell**: `run_enhanced_streamlit.ps1`
+- **Python**: `run_enhanced_streamlit.py`
 
-## 🌐 Streamlit Web Interface
+## 🧪 **Testing**
 
-The **Streamlit UI** provides a beautiful, interactive web interface that makes testing both agents incredibly easy:
-
-### ✨ Features
-- **Modern web interface** - No command line needed!
-- **Interactive forms** - Easy input with validation
-- **Real-time updates** - See changes immediately
-- **Excel download** - One-click Excel export
-- **Session persistence** - Your data stays while you work
-- **Responsive design** - Works on desktop and mobile
-- **Agent switching** - Toggle between Simple and AI agents
-
-### 🎯 How to Use the Web Interface
-
-1. **Choose your agent** - Simple (offline) or AI-powered
-2. **Fill out the forms** - Step-by-step project planning
-3. **Get AI assistance** - Smart suggestions and recommendations
-4. **Download Excel** - Professional budget files ready to use
-
-### 🖥️ Screenshots
-
-The interface includes:
-- **Project Description** - Text input with placeholders
-- **Square Meters** - Number input with validation
-- **Category Selection** - Checkboxes in organized columns
-- **Task Management** - Add/remove tasks with delete buttons
-- **AI Integration** - Buttons to get AI suggestions
-- **Excel Export** - Download button with timestamped files
-
-## 🔄 How It Works
-
-Both agents follow the same 8-step workflow:
-
-1. **Project Description** - User describes the project in Danish
-2. **Follow-up Questions** - Agent asks for square meters
-3. **Category Selection** - User selects relevant construction categories
-4. **Task Gathering** - For each category, user specifies sub-tasks
-5. **Excel Export** - All data is saved to a timestamped Excel file
-
-## 📁 Files
-
-- `simple_agent.py` - **Simple version**: Basic Python implementation, works offline
-- `ai_agent.py` - **AI version**: LangChain + OpenAI integration for smarter conversations
-- `streamlit_app.py` - **🌐 Web Interface**: Beautiful Streamlit UI for both agents
-- `run_streamlit.py` - **Launcher**: Easy script to start the web interface
-- `run_streamlit.bat` - **Windows Batch**: Double-click launcher
-- `run_streamlit.ps1` - **PowerShell**: Advanced launcher with error handling
-- `venv/` - **Virtual Environment**: Isolated dependencies (prevents conflicts)
-- `categories.json` - Predefined construction categories
-- `requirements.txt` - Python dependencies (includes Streamlit)
-- `test_agent.py` - Test script for simple agent
-- `test_ai_agent.py` - Test script for AI agent
-- `STREAMLIT_SETUP.md` - **Setup Guide**: Resolves package conflicts
-
-## 🤖 AI Agent Features
-
-The **AI-powered version** (`ai_agent.py`) provides what Gemini suggested:
-
-- **Intelligent follow-up questions** based on project description
-- **Context-aware category explanations** tailored to your project
-- **Smart task suggestions** with examples for each category
-- **Natural language processing** for better user interaction
-- **Conversation memory** to maintain context throughout the session
-- **LangChain tools** for Excel export and category management
-- **OpenAI GPT-3.5-turbo** for intelligent responses
-
-## 🧪 Testing
-
-### Test Simple Agent
+### **Test Knowledge Base Integration**
 ```bash
-cd agent
-.\venv\Scripts\Activate.ps1
-python test_agent.py
+# Test all components
+python test_enhanced_agent.py
 ```
 
-### Test AI Agent
+### **Test Individual Components**
 ```bash
-cd agent
-.\venv\Scripts\Activate.ps1
-python test_ai_agent.py
+# Test search system
+python -c "from semantic_search import SemanticSearch; print('✅ Search system works')"
+
+# Test enhanced agent
+python -c "from enhanced_ai_agent import EnhancedAIAgent; print('✅ Enhanced agent works')"
 ```
 
-### Test Web Interface
+## 📊 **Workflow Example**
+
+### **User Input**
+```
+Project: "Total renovation af badeværelse"
+Size: 8.5 m²
+Categories: nedrivning, vvs, gulv
+```
+
+### **Task Definition**
+```
+nedrivning: "nedrivning af fliser på vægge"
+vvs: "installation af nye vandhaner"
+gulv: "lægning af nye fliser"
+```
+
+### **AI Search Results**
+```
+🔍 Found 3 relevant components for 'nedrivning af fliser på vægge':
+• Fjerne vægstykker mellem entre og gang (nedrivning)
+  - Total pris: 2,040 DKK
+  - Kostpris EP: 2,040 DKK
+  - Materialer: 0 DKK
+  - Timer: 4.0 | Takst: 510 DKK
+  - Lighedsscore: 0.856
+```
+
+### **Excel Output**
+Professional Excel file with:
+- **Project Information**: Description, size, categories
+- **Component Details**: Full cost breakdowns for each selected component
+- **Cost Analysis**: Material costs, labor hours, markups, total prices
+- **Professional Formatting**: Styled headers, totals, auto-adjusted columns
+
+## 🔧 **Troubleshooting**
+
+### **Common Issues**
+
+#### **1. ModuleNotFoundError: langchain**
 ```bash
-cd agent
-.\venv\Scripts\Activate.ps1
-streamlit run streamlit_app.py
+# Solution: Activate virtual environment
+venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
-## 💡 Example Session (AI Agent)
-
-```
-🤖 Hej! Jeg er din AI-assistent til at planlægge dit byggeprojekt.
-Jeg vil stille dig spørgsmål på dansk og hjælpe dig med at strukturere dit projekt.
-======================================================================
-
-📝 **Trin 1: Projektbeskrivelse**
-Beskriv dit projekt: Total renovation af badeværelse
-
-🤖 Baseret på din beskrivelse af en total badeværelsesrenovering, vil jeg stille dig nogle relevante spørgsmål:
-
-1. Hvor mange kvadratmeter er badeværelset?
-2. Er det et helt nyt badeværelse eller en renovering af eksisterende?
-3. Hvilke specifikke områder vil du gerne have fokus på?
-
-Hvor mange kvadratmeter er der? 8.5
-
-🏗️ **Trin 2: Kategorier**
-
-🤖 For en badeværelsesrenovering på 8.5 m² vil jeg anbefale følgende kategorier:
-
-1. nedrivning - Fjernelse af gamle materialer og installationer
-2. vvs - Installation af nye rør og sanitære artikler
-3. elektrisk - Opdatering af belysning og stikkontakter
-4. gulv - Lægning af nye fliser eller andet gulvbelægning
-5. vægge - Flisning eller anden vægbehandling
-6. loft - Eventuel loftbehandling
-7. tætning - Fugtisolering og tætning
-
-Indtast numrene på de relevante kategorier: 1,2,4,5
-```
-
-## 🔧 Customization
-
-- **Categories**: Edit `categories.json` to add/remove construction categories
-- **AI Prompts**: Modify the prompt templates in `ai_agent.py` for different conversation styles
-- **Excel Format**: Customize the Excel output in both agents
-- **UI Styling**: Modify the CSS in `streamlit_app.py` for different looks
-- **Language**: Change prompts to other languages if needed
-
-## 🔑 OpenAI API Key
-
-For the AI agent, you need to set your OpenAI API key:
-
-**Windows PowerShell:**
-```powershell
-$env:OPENAI_API_KEY="your-api-key-here"
-```
-
-**Windows Command Prompt:**
-```cmd
-set OPENAI_API_KEY=your-api-key-here
-```
-
-## 🎯 Next Steps for Enhancement
-
-This gives you a **working foundation** that you can build upon:
-
-1. **Integrate with Knowledge Base** - Connect to your `../knowledge_base/` components
-2. **Add Cost Calculations** - Use your knowledge base to estimate prices
-3. **Better UI** - Enhance the Streamlit interface with more features
-4. **Template System** - Use different Excel templates for different project types
-5. **Data Persistence** - Save projects to database
-6. **User Authentication** - Add login system to the web interface
-
-## ✅ What Makes This "Minimal but Working"
-
-- **Two versions**: Simple offline version + AI-powered version
-- **Web interface**: Beautiful Streamlit UI for easy testing
-- **Virtual environment**: Prevents package conflicts
-- **Same workflow**: Both implement your exact 8-step process
-- **Immediate usability**: Run either version right now
-- **Clear code**: Easy to understand and modify
-- **Professional output**: Creates proper Excel files
-- **Error handling**: Won't crash on invalid input
-- **LangChain integration**: Uses the framework Gemini suggested
-
-## 🎉 Ready to Use!
-
-Choose the version that fits your needs:
-
-- **Simple Agent** (`simple_agent.py`): Works offline, no API costs, immediate functionality
-- **AI Agent** (`ai_agent.py`): Smarter conversations, better user experience, requires OpenAI API
-- **🌐 Streamlit UI** (`streamlit_app.py`): Beautiful web interface for both agents
-
-**The Streamlit UI is the easiest way to test and use both agents!** 
-
-**🚀 Quick Launch:**
+#### **2. Knowledge Base Not Found**
 ```bash
-cd agent
-.\venv\Scripts\Activate.ps1
-streamlit run streamlit_app.py
+# Check file structure
+ls ../knowledge_base/
+# Ensure unified_knowledge_base.json exists
 ```
 
-All versions are **immediately functional** and follow your exact workflow! The AI version gives you the sophisticated agent that Gemini was describing, while the simple version provides a solid offline alternative. The Streamlit interface makes everything accessible through a beautiful web UI.
+#### **3. Embeddings Not Found**
+```bash
+# The system will auto-generate embeddings on first run
+# This may take a few minutes
+```
+
+#### **4. OpenAI API Errors**
+```bash
+# Check API key
+echo $env:OPENAI_API_KEY
+# Set if missing
+$env:OPENAI_API_KEY="your_key_here"
+```
+
+### **Performance Tips**
+- **First Run**: May be slower due to embedding generation
+- **Subsequent Runs**: Fast semantic search through pre-generated embeddings
+- **Memory Usage**: ~5MB for embeddings, ~300MB for knowledge base
+
+## 📈 **Advanced Features**
+
+### **Search Capabilities**
+- **Semantic Matching**: Find components using natural language
+- **Category Filtering**: Search within specific construction categories
+- **Cost Range Filtering**: Find components within budget constraints
+- **Similarity Scoring**: Rank results by relevance
+
+### **Cost Optimization**
+- **Alternative Suggestions**: Find similar components with different price points
+- **Cost Analysis**: Break down total project costs by category
+- **Budget Planning**: Estimate costs before component selection
+
+### **Professional Output**
+- **Excel Templates**: Industry-standard budget format
+- **Cost Breakdowns**: Detailed analysis for client presentations
+- **Project Summaries**: Comprehensive project overviews
+
+## 🤝 **Contributing**
+
+The enhanced agent is designed to be easily extensible:
+
+- **New Search Methods**: Add to `semantic_search.py`
+- **Additional Tools**: Extend the LangChain agent tools
+- **UI Improvements**: Modify `enhanced_streamlit_app.py`
+- **Cost Calculations**: Enhance Excel export functions
+
+## 📚 **Dependencies**
+
+- **LangChain**: AI agent framework
+- **OpenAI**: GPT-3.5-turbo language model
+- **Streamlit**: Web interface
+- **OpenPyXL**: Excel file generation
+- **NumPy**: Numerical operations for embeddings
+- **Pandas**: Data manipulation
+
+## 🎉 **What's New**
+
+### **v2.0 - Enhanced Knowledge Base Integration**
+- ✅ Semantic search through 633 components
+- ✅ Full cost structure preservation
+- ✅ AI-driven component selection
+- ✅ Professional Excel output
+- ✅ Enhanced Streamlit UI
+- ✅ Comprehensive testing suite
+
+### **v1.0 - Basic AI Agent**
+- ✅ LangChain + OpenAI integration
+- ✅ Basic conversation flow
+- ✅ Simple Excel export
+
+---
+
+**Ready to revolutionize your construction project planning?** 🚀
+
+Start with the Enhanced AI Agent for the full experience, or use the basic versions for simpler workflows.

@@ -7,9 +7,12 @@ class SemanticSearch:
     Simple semantic search interface for the construction components knowledge base.
     """
     
-    def __init__(self):
+    def __init__(self, embeddings_manager=None):
         """Initialize the semantic search system."""
-        self.embeddings_manager = ComponentEmbeddings()
+        if embeddings_manager:
+            self.embeddings_manager = embeddings_manager
+        else:
+            self.embeddings_manager = ComponentEmbeddings()
         
         if not self.embeddings_manager.embeddings:
             print("Generating embeddings...")

@@ -14,7 +14,19 @@ class ComponentEmbeddings:
     def __init__(self, knowledge_base_path: str = "unified_knowledge_base.json"):
         """Initialize the embeddings manager."""
         self.kb_path = knowledge_base_path
-        self.embeddings_path = "component_embeddings.pkl"
+        # Set embeddings path relative to the knowledge base directory
+        kb_dir = os.path.dirname(os.path.abspath(knowledge_base_path))
+        self.embeddings_path = os.path.join(kb_dir, "embeddings_and_search", "component_embeddings.pkl")
+        
+        # If the embeddings file doesn't exist in the expected location, try the default location
+        if not os.path.exists(self.embeddings_path):
+            # Try to find embeddings in the same directory as this script
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            default_embeddings_path = os.path.join(script_dir, "component_embeddings.pkl")
+            if os.path.exists(default_embeddings_path):
+                self.embeddings_path = default_embeddings_path
+                print(f"✓ Using existing embeddings from: {self.embeddings_path}")
+        
         self.kb_data = None
         self.components = []
         self.embeddings = {}
@@ -118,17 +130,34 @@ class ComponentEmbeddings:
     def load_embeddings(self) -> bool:
         """Load embeddings from disk."""
         try:
+            print(f"🔍 Attempting to load embeddings from: {self.embeddings_path}")
+            
+            if not os.path.exists(self.embeddings_path):
+                print(f"✗ Embeddings file not found at: {self.embeddings_path}")
+                return False
+            
             with open(self.embeddings_path, 'rb') as f:
                 embedding_data = pickle.load(f)
             
+            if not isinstance(embedding_data, dict):
+                print(f"✗ Invalid embeddings file format: expected dict, got {type(embedding_data)}")
+                return False
+            
+            if "embeddings" not in embedding_data:
+                print(f"✗ Embeddings file missing 'embeddings' key. Available keys: {list(embedding_data.keys())}")
+                return False
+            
             self.embeddings = embedding_data["embeddings"]
-            self.component_ids = embedding_data["component_ids"]
+            self.component_ids = embedding_data.get("component_ids", [])
             
             print(f"✓ Loaded embeddings for {len(self.embeddings)} components")
+            print(f"✓ Component IDs: {len(self.component_ids)}")
             return True
             
         except Exception as e:
             print(f"✗ Error loading embeddings: {str(e)}")
+            print(f"✗ File path: {self.embeddings_path}")
+            print(f"✗ File exists: {os.path.exists(self.embeddings_path)}")
             return False
     
     def search_components(self, query: str, top_k: int = 10) -> List[Tuple[int, float, Dict[str, Any]]]:
