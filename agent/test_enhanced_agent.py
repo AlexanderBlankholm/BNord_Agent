@@ -117,7 +117,7 @@ def test_enhanced_agent_import():
         # Test ProjectData creation
         project_data = ProjectData(
             description="Test projekt",
-            square_meters=10.0,
+            detailed_description="Test renovation of bathroom with new tiles and plumbing",
             selected_categories=["nedrivning", "vvs"]
         )
         print("✅ ProjectData created successfully")

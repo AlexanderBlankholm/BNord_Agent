@@ -18,7 +18,7 @@ class SemanticSearch:
             print("Generating embeddings...")
             self.embeddings_manager.generate_embeddings()
     
-    def search(self, query: str, top_k: int = 10, min_similarity: float = 0.1) -> List[Dict[str, Any]]:
+    def search(self, query: str, top_k: int = 10, min_similarity: float = 0.1, min_quality_score: float = 0.0) -> List[Dict[str, Any]]:
         """
         Search for components using natural language.
         
@@ -26,22 +26,58 @@ class SemanticSearch:
             query: Natural language search query
             top_k: Maximum number of results to return
             min_similarity: Minimum similarity score (0.0 to 1.0)
+            min_quality_score: Minimum quality score (0.0 to 1.0) for filtering
         
         Returns:
-            List of component dictionaries with similarity scores
+            List of component dictionaries with similarity scores and quality scores
         """
-        results = self.embeddings_manager.search_components(query, top_k=top_k)
+        results = self.embeddings_manager.search_components(query, top_k=top_k * 2)  # Get more results to filter
         
-        # Filter by minimum similarity and format results
+        # Filter by minimum similarity and quality, then format results
         formatted_results = []
         for comp_idx, similarity, component in results:
             if similarity >= min_similarity:
-                result = component.copy()
-                result['similarity_score'] = similarity
-                result['component_index'] = comp_idx
-                formatted_results.append(result)
+                # Calculate quality score for this component
+                quality_score = self._calculate_component_quality(component)
+                
+                if quality_score >= min_quality_score:
+                    result = component.copy()
+                    result['similarity_score'] = similarity
+                    result['component_index'] = comp_idx
+                    result['quality_score'] = quality_score
+                    formatted_results.append(result)
+                    
+                    # Stop if we have enough results
+                    if len(formatted_results) >= top_k:
+                        break
         
         return formatted_results
+
+    def _calculate_component_quality(self, component: Dict[str, Any]) -> float:
+        """
+        Calculate quality score for a component based on source file.
+        High-quality components come from the three detailed Excel files.
+        """
+        try:
+            source_file = component.get('source_file', '').lower()
+            
+            # High-quality source files (the three detailed Excel files)
+            high_quality_sources = [
+                'røddiggade',
+                'peter fabers vej', 
+                'viborggade'
+            ]
+            
+            # Check if component is from a high-quality source
+            for high_quality_source in high_quality_sources:
+                if high_quality_source in source_file:
+                    return 1.0  # High quality
+            
+            # All other components (transformed data) get medium quality
+            return 0.5
+            
+        except Exception:
+            return 0.5  # Default to medium quality if calculation fails
     
     def search_by_category(self, query: str, kategori: str, top_k: int = 10) -> List[Dict[str, Any]]:
         """

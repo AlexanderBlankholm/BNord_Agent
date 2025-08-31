@@ -94,36 +94,37 @@ class ValidatedComponentsMerger:
         return mapped
     
     def map_old_format(self, component: Dict[str, Any], source_file: str) -> Dict[str, Any]:
-        """Map old format component to unified schema with calculated values."""
+        """Map old format component to unified schema, preserving original values."""
         mapped = self.unified_schema.copy()
         
-        # Extract basic fields
+        # Extract basic fields - preserve original values
         timer = float(component.get("Timer", 0))
         takst = float(component.get("Takst", 0))
         materialer = float(component.get("Materialer", 0))
         kostpris = float(component.get("kostpris", 0))
         påslag = float(component.get("Påslag", 0))
         tilbud = float(component.get("Tilbud", 0))
+        admin = float(component.get("Admin", 0))
         
-        # Calculate Kostpris_EP (Timer * Takst)
-        kostpris_ep = timer * takst if timer > 0 and takst > 0 else kostpris
+        # For old format, kostpris typically represents the labor cost (Timer * Takst)
+        # But we should preserve the original kostpris value as Kostpris_EP
+        kostpris_ep = kostpris
         
-        # Determine if this is primarily labor or materials
-        is_labor_dominant = timer > 0 and takst > 0
-        is_material_dominant = materialer > 0 and timer == 0
+        # Preserve original påslag values - don't try to "fix" them
+        påslag_mat = påslag
+        påslag_ue = påslag
         
-        # Calculate material-related fields
-        påslag_mat = påslag if is_material_dominant else 0.0
+        # Calculate sales prices based on original values
         salgspris_mat = materialer * (1 + påslag_mat / 100) if påslag_mat > 0 else materialer
         
-        # Calculate UE (subcontractor) fields
-        # If kostpris_ep > 0 and not material dominant, assume it's UE
-        ue = kostpris_ep if is_labor_dominant and not is_material_dominant else 0.0
-        påslag_ue = påslag if is_labor_dominant and not is_material_dominant else 0.0
-        salgspris_ue = ue * (1 + påslag_ue / 100) if påslag_ue > 0 else ue
-        
-        # Admin field - try to extract from existing data or estimate
-        admin = float(component.get("Admin", 0))
+        # For old format components, UE typically represents the labor cost (Timer * Takst)
+        # But only if it makes sense (Timer > 0 and Takst > 0)
+        if timer > 0 and takst > 0:
+            ue = timer * takst
+            salgspris_ue = ue * (1 + påslag_ue / 100) if påslag_ue > 0 else ue
+        else:
+            ue = 0.0
+            salgspris_ue = 0.0
         
         mapped.update({
             "kategori": component.get("kategori", ""),
@@ -274,8 +275,8 @@ def main():
     merger = ValidatedComponentsMerger()
     
     # Set input and output paths
-    input_directory = "real_examples/validated_components"
-    output_file = "unified_knowledge_base.json"
+    input_directory = "../real_examples/validated_components"
+    output_file = "unified_knowledge_base_backup_before_bnord_fix.json"
     
     # Merge all files
     result = merger.merge_all_files(input_directory, output_file)

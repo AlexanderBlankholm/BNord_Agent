@@ -2,31 +2,25 @@
 
 A sophisticated AI-powered agent for construction project planning and budgeting, built with LangChain and OpenAI.
 
-## 🚀 **NEW: Enhanced AI Agent with Knowledge Base Integration**
+## 🚀 **NEW: Enhanced AI Agent with Quality-Aware RAG Pipeline**
 
-The **Enhanced AI Agent** now integrates with your existing knowledge base search system, providing:
+The **Enhanced AI Agent** now features a sophisticated **Quality-Aware RAG** (Retrieval-Augmented Generation) pipeline that:
 
-- **🔍 Semantic Search**: Search through 633 construction components using natural language
-- **💰 Cost Structure Preservation**: Full cost breakdowns matching your knowledge base format
-- **🤖 AI-Driven Component Selection**: Intelligent suggestions based on user descriptions
+- **🤖 AI-Generated Components**: Automatically generates high-quality components based on user queries
+- **🎯 Quality-First RAG**: Prioritizes high-quality pricing data by default, with smart fallback
+- **🔍 Smart Context Selection**: Uses only reliable components for generation, ensuring realistic pricing
+- **💰 Smart Pricing**: Inherits pricing structure from similar components in your knowledge base
 - **📊 Professional Excel Output**: Detailed cost analysis with all fields preserved
+- **🔍 Manual Backup**: Fallback to manual component selection when needed
+- **⚙️ Quality Control Toggle**: User can choose between high-quality only or full database access
 
-## 📁 **Agent Versions**
+## 📁 **Agent Version**
 
-### 1. **Enhanced AI Agent** (Recommended) 🆕
+### **Enhanced AI Agent** 🚀
 - **File**: `enhanced_ai_agent.py`
-- **Features**: Full knowledge base integration, semantic search, cost structure preservation
-- **UI**: `enhanced_streamlit_app.py`
-
-### 2. **AI Agent** (Basic)
-- **File**: `ai_agent.py`
-- **Features**: LangChain + OpenAI integration, basic conversation flow
-- **UI**: `streamlit_app.py`
-
-### 3. **Simple Agent**
-- **File**: `simple_agent.py`
-- **Features**: Basic Python implementation without AI
-- **UI**: Basic Streamlit interface
+- **Features**: Full RAG pipeline, quality control, AI-generated components
+- **UI**: `enhanced_streamlit_app_fixed.py`
+- **Status**: ✅ **Production Ready**
 
 ## 🎯 **Enhanced Agent Features**
 
@@ -36,13 +30,30 @@ The **Enhanced AI Agent** now integrates with your existing knowledge base searc
 - **Cost Breakdowns**: Preserve all cost fields (Kostpris_EP, Materialer, Timer, Takst, Påslag, Salgspris)
 - **Category Filtering**: Search within specific construction categories
 
-### **AI-Powered Workflow**
+### **RAG-Powered Workflow**
 1. **Project Description**: User describes their construction project
 2. **Category Selection**: Choose relevant construction categories
 3. **Task Definition**: Describe specific tasks for each category
-4. **Component Search**: AI searches knowledge base for matching components
-5. **Cost Analysis**: View detailed cost breakdowns for each component
-6. **Excel Export**: Generate professional budget with full cost structure
+4. **AI Component Generation**: AI generates new components using RAG pipeline
+5. **Component Review**: User reviews generated component with full cost breakdown
+6. **Add to Project**: User approves and adds the AI-generated component
+7. **Manual Backup**: Optional manual component selection for anything missed
+8. **Excel Export**: Generate professional budget with full cost structure
+
+### **How Quality-Aware RAG Works**
+The Quality-Aware RAG pipeline combines:
+- **Smart Retrieval**: Searches your knowledge base for similar components with quality filtering
+- **Quality-First Context**: Prioritizes high-quality components (detailed pricing structure) by default
+- **Intelligent Fallback**: Automatically falls back to broader database if no high-quality matches found
+- **Generation**: Uses AI to create new components based on user queries + quality-filtered context
+- **Pricing Inheritance**: Automatically calculates realistic pricing based on similar, reliable components
+- **Quality Assurance**: Ensures generated components match your existing format and standards
+
+### **Quality Control Features**
+- **High-Quality Only Mode (Default)**: RAG uses only components with detailed pricing structure
+- **Quality Toggle**: Users can override to include all components when needed
+- **Transparency**: Clear indication of what data influenced generation and its quality level
+- **Smart Fallback**: System never fails - automatically uses broader database when needed
 
 ### **Cost Structure Preservation**
 The enhanced agent maintains the exact cost structure from your knowledge base:
@@ -91,13 +102,25 @@ Ensure the knowledge base folder structure exists:
 BNord_Agent/
 ├── agent/
 │   ├── enhanced_ai_agent.py
-│   └── enhanced_streamlit_app.py
+│   └── enhanced_streamlit_app_fixed.py
 └── knowledge_base/
     ├── unified_knowledge_base.json
     └── embeddings_and_search/
         ├── component_embeddings.pkl
         ├── semantic_search.py
         └── component_embeddings.py
+```
+
+### **4. Test RAG Functionality**
+```bash
+# Test the new RAG component generation
+python test_rag_generation.py
+
+# This will verify:
+# - Search system connectivity
+# - AI agent initialization
+# - RAG component generation
+# - Pricing structure inheritance
 ```
 
 ## 🚀 **Running the Enhanced Agent**
@@ -117,15 +140,20 @@ python enhanced_ai_agent.py
 venv\Scripts\activate
 
 # Run enhanced Streamlit app
-python run_enhanced_streamlit.py
-# OR
-streamlit run enhanced_streamlit_app.py
+streamlit run enhanced_streamlit_app_fixed.py
 ```
 
-### **Alternative Launchers**
-- **Windows**: `run_enhanced_streamlit.bat` (double-click)
-- **PowerShell**: `run_enhanced_streamlit.ps1`
-- **Python**: `run_enhanced_streamlit.py`
+### **Quick Start**
+```bash
+# Navigate to agent directory
+cd agent
+
+# Activate virtual environment
+venv\Scripts\activate
+
+# Run the app
+streamlit run enhanced_streamlit_app_fixed.py
+```
 
 ## 🧪 **Testing**
 
