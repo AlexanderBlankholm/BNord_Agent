@@ -1,0 +1,754 @@
+[
+  [
+    "Maling af underboens loft",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 3000.0,
+      "Påslag_UE": 17.0,
+      "Salgspris_UE": 3510.0,
+      "Tilbud": 3510.0
+    }
+  ],
+  [
+    "Nye indfatninger på inderside af dør",
+    {
+      "Admin": 0.0,
+      "Timer": 2.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 1170.0,
+      "Materialer": 595.0,
+      "Påslag_MAT": 15.0,
+      "Salgspris_MAT": 700.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 1870.0
+    }
+  ],
+  [
+    "Nedrivning af brusevæg, stål og glasbyggesten",
+    {
+      "Admin": 0.0,
+      "Timer": 2.0,
+      "Takst": 402.5,
+      "Kostpris_EP": 805.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 805.0
+    }
+  ],
+  [
+    "Ingeniør :  Statisk notat",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 6000.0,
+      "Påslag_UE": 17.0,
+      "Salgspris_UE": 7020.0,
+      "Tilbud": 7020.0
+    }
+  ],
+  [
+    "EL - gulvvarme som slange med regulator",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 6000.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 6900.0,
+      "Tilbud": 6900.0
+    }
+  ],
+  [
+    "Fronter, tilsætninger og låger fra &Shufl",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 23474.0,
+      "Påslag_MAT": 15.0,
+      "Salgspris_MAT": 26995.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 26995.0
+    }
+  ],
+  [
+    "Opsætning af nyt nedhængt gipsloft",
+    {
+      "Admin": 0.0,
+      "Timer": 20.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 11700.0,
+      "Materialer": 1020.0,
+      "Påslag_MAT": 15.0,
+      "Salgspris_MAT": 1200.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 12900.0
+    }
+  ],
+  [
+    "Udlægning af Wediplader på gulv",
+    {
+      "Admin": 0.0,
+      "Timer": 4.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 2340.0,
+      "Materialer": 1000.0,
+      "Påslag_MAT": 20.0,
+      "Salgspris_MAT": 1200.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 3540.0
+    }
+  ],
+  [
+    "Opsætning af sokkelklinker og gulvklinker (7,5 m2+20%) og (12 lbm+20%)",
+    {
+      "Admin": 0.0,
+      "Timer": 12.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 7020.0,
+      "Materialer": 340.0,
+      "Påslag_MAT": 15.0,
+      "Salgspris_MAT": 400.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 7420.0
+    }
+  ],
+  [
+    "Kabinet til vaskemøbel",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 1755.0
+    }
+  ],
+  [
+    "Opsætning af fliser på alle vægge i badeværelset",
+    {
+      "Admin": 0.0,
+      "Timer": 30.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 17550.0,
+      "Materialer": 800.0,
+      "Påslag_MAT": 17.0,
+      "Salgspris_MAT": 936.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 18486.0
+    }
+  ],
+  [
+    "Nedbankning af fliser på væg",
+    {
+      "Admin": 0.0,
+      "Timer": 4.0,
+      "Takst": 402.5,
+      "Kostpris_EP": 1610.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 1610.0
+    }
+  ],
+  [
+    "Nedrivning af rørkasse",
+    {
+      "Admin": 0.0,
+      "Timer": 2.0,
+      "Takst": 402.5,
+      "Kostpris_EP": 805.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 805.0
+    }
+  ],
+  [
+    "Indkøb af fliser, klinker og sokkelklinker (Afsat beløb 6.000 Kr)",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 6000.0,
+      "Påslag_MAT": 15.0,
+      "Salgspris_MAT": 6900.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 6900.0
+    }
+  ],
+  [
+    "Opsætning af stikkontakter ved vask 2 x 2 stk.",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 2200.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 2530.0,
+      "Tilbud": 2530.0
+    }
+  ],
+  [
+    "Ny ventilator placeret i vindue (Flyttes til loft hvis muligt)",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 2500.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 2875.0,
+      "Tilbud": 2875.0
+    }
+  ],
+  [
+    "Ny væg mellem gang og nyt badeværelse",
+    {
+      "Admin": 0.0,
+      "Timer": 7.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 4095.0,
+      "Materialer": 600.0,
+      "Påslag_MAT": 20.0,
+      "Salgspris_MAT": 720.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 4815.0
+    }
+  ],
+  [
+    "Opsætning af fliser i bruseniche",
+    {
+      "Admin": 0.0,
+      "Timer": 15.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 8775.0,
+      "Materialer": 600.0,
+      "Påslag_MAT": 20.0,
+      "Salgspris_MAT": 720.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 9495.0
+    }
+  ],
+  [
+    "Opsætning af 4 spots i loft",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 3400.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 3910.0,
+      "Tilbud": 3910.0
+    }
+  ],
+  [
+    "Trykknap (Afsat beløb 950 eks moms)",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 950.0,
+      "Påslag_UE": 17.0,
+      "Salgspris_UE": 1112.0,
+      "Tilbud": 1112.0
+    }
+  ],
+  [
+    "Udlægning af gulvfliser i badeværelse (Som rødinggade 10 st. tv. dag uden sokkelklinker)",
+    {
+      "Admin": 0.0,
+      "Timer": 8.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 4680.0,
+      "Materialer": 650.0,
+      "Påslag_MAT": 17.0,
+      "Salgspris_MAT": 761.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 5441.0
+    }
+  ],
+  [
+    "Opsætning af stikkontakter ved vask 1 x 2 stk. ved vindueskarm",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 850.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 978.0,
+      "Tilbud": 978.0
+    }
+  ],
+  [
+    "Toilet og toiletsæde (Afsat beløb 2.400)",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 2400.0,
+      "Påslag_UE": 17.0,
+      "Salgspris_UE": 2808.0,
+      "Tilbud": 2808.0
+    }
+  ],
+  [
+    "Opsætning af fodpaneler i Entré, køkken og kontor (15 cm høje) ca. 27 lbm",
+    {
+      "Admin": 0.0,
+      "Timer": 12.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 7020.0,
+      "Materialer": 2160.0,
+      "Påslag_MAT": 20.0,
+      "Salgspris_MAT": 2592.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 9612.0
+    }
+  ],
+  [
+    "Nedtagning og afpropning af radiator i badeværelset",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 2500.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 2875.0,
+      "Tilbud": 2875.0
+    }
+  ],
+  [
+    "Montage af badeværelsesmøbel",
+    {
+      "Admin": 0.0,
+      "Timer": 4.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 2340.0,
+      "Materialer": 300.0,
+      "Påslag_MAT": 20.0,
+      "Salgspris_MAT": 360.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 2700.0
+    }
+  ],
+  [
+    "Indkøb af skabselementer fra IKEA inkl. hængsler, fragt og opbæring (afsat beløb 25.000)",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 25000.0,
+      "Påslag_MAT": 17.0,
+      "Salgspris_MAT": 29250.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 29250.0
+    }
+  ],
+  [
+    "Etablering af fald på gulv i bruseniche",
+    {
+      "Admin": 0.0,
+      "Timer": 2.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 1170.0,
+      "Materialer": 300.0,
+      "Påslag_MAT": 20.0,
+      "Salgspris_MAT": 360.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 1530.0
+    }
+  ],
+  [
+    "Flytning af faldstamme og stigestrenge ind til væg",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 5000.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 5750.0,
+      "Tilbud": 5750.0
+    }
+  ],
+  [
+    "Fragt og opbæring af vaskemaskine og & møbel",
+    {
+      "Admin": 0.0,
+      "Timer": 2.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 1170.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 1170.0
+    }
+  ],
+  [
+    "Opsætning og fugning af badeværelsesmøbel",
+    {
+      "Admin": 0.0,
+      "Timer": 3.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 1755.0,
+      "Materialer": 100.0,
+      "Påslag_MAT": 17.0,
+      "Salgspris_MAT": 117.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 1872.0
+    }
+  ],
+  [
+    "WC/hænge toilet (Afsat beløb 2.500 eks moms)",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 2500.0,
+      "Påslag_UE": 17.0,
+      "Salgspris_UE": 2925.0,
+      "Tilbud": 2925.0
+    }
+  ],
+  [
+    "Håndvask armatur (Afsat beløb 1.200 eks moms)",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 1200.0,
+      "Påslag_UE": 17.0,
+      "Salgspris_UE": 1405.0,
+      "Tilbud": 1404.0
+    }
+  ],
+  [
+    "Ny fasle i dør mellem stue og spisestue",
+    {
+      "Admin": 0.0,
+      "Timer": 6.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 3510.0,
+      "Materialer": 350.0,
+      "Påslag_MAT": 17.0,
+      "Salgspris_MAT": 410.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 3920.0
+    }
+  ],
+  [
+    "Fugning af hårde og bløde fuger",
+    {
+      "Admin": 0.0,
+      "Timer": 7.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 4095.0,
+      "Materialer": 1020.0,
+      "Påslag_MAT": 15.0,
+      "Salgspris_MAT": 1200.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 5295.0
+    }
+  ],
+  [
+    "Montering og fugning af køkken samt montage af BORA Emfang",
+    {
+      "Admin": 0.0,
+      "Timer": 30.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 17550.0,
+      "Materialer": 1000.0,
+      "Påslag_MAT": 17.0,
+      "Salgspris_MAT": 1170.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 18720.0
+    }
+  ],
+  [
+    "Opretning af vægge i toilet",
+    {
+      "Admin": 0.0,
+      "Timer": 7.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 4095.0,
+      "Materialer": 400.0,
+      "Påslag_MAT": 20.0,
+      "Salgspris_MAT": 480.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 4575.0
+    }
+  ],
+  [
+    "Toilet inkl. toiletsæde (Afsat beløb 2.200 kr.)",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 2200.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 2530.0,
+      "Tilbud": 2530.0
+    }
+  ],
+  [
+    "Skørt i loft hvor gammel væg mellem værelse og køkken var placeret",
+    {
+      "Admin": 0.0,
+      "Timer": 6.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 3510.0,
+      "Materialer": 700.0,
+      "Påslag_MAT": 20.0,
+      "Salgspris_MAT": 840.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 4350.0
+    }
+  ],
+  [
+    "Samling og opsætning af badeværelsesmøbler ved vaske og VM og TT",
+    {
+      "Admin": 0.0,
+      "Timer": 14.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 8190.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 8190.0
+    }
+  ],
+  [
+    "Udlægning af Wediplader på gulv",
+    {
+      "Admin": 0.0,
+      "Timer": 5.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 2925.0,
+      "Materialer": 1000.0,
+      "Påslag_MAT": 17.0,
+      "Salgspris_MAT": 1170.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 4095.0
+    }
+  ],
+  [
+    "Nedrivning af loft og rørkasse i loft",
+    {
+      "Admin": 0.0,
+      "Timer": 4.0,
+      "Takst": 402.5,
+      "Kostpris_EP": 1610.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 1610.0
+    }
+  ],
+  [
+    "Indkøb, levering og opbæring af hårde hvidevarer",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 27964.0,
+      "Påslag_MAT": 17.0,
+      "Salgspris_MAT": 32718.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 32718.0
+    }
+  ],
+  [
+    "Opsætning af spejl",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 850.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 978.0,
+      "Tilbud": 978.0
+    }
+  ],
+  [
+    "Rengøring og afdækning i byggeperioden",
+    {
+      "Admin": 0.0,
+      "Timer": 4.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 2340.0,
+      "Materialer": 300.0,
+      "Påslag_MAT": 20.0,
+      "Salgspris_MAT": 360.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 2700.0
+    }
+  ],
+  [
+    "Påfyldning af 4-kant så brusenichen bliver regulær, gasbeton",
+    {
+      "Admin": 0.0,
+      "Timer": 3.0,
+      "Takst": 585.0,
+      "Kostpris_EP": 1755.0,
+      "Materialer": 255.0,
+      "Påslag_MAT": 15.0,
+      "Salgspris_MAT": 300.0,
+      "UE": 0.0,
+      "Påslag_UE": 0.0,
+      "Salgspris_UE": 0.0,
+      "Tilbud": 2055.0
+    }
+  ],
+  [
+    "Indkøb af bundprop til vask 2. stk. (Afsat beløb 2 stk. 500 kr. pr. stk.)",
+    {
+      "Admin": 0.0,
+      "Timer": 0.0,
+      "Takst": 0.0,
+      "Kostpris_EP": 0.0,
+      "Materialer": 0.0,
+      "Påslag_MAT": 0.0,
+      "Salgspris_MAT": 0.0,
+      "UE": 1000.0,
+      "Påslag_UE": 15.0,
+      "Salgspris_UE": 1150.0,
+      "Tilbud": 1150.0
+    }
+  ]
+]
